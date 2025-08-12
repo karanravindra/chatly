@@ -2,6 +2,11 @@
   "name": "chatly",
   "description": "yet another chat app",
   "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start"
+  },
   "packageManager": "pnpm@8.15.6",
   "devDependencies": {
     "turbo": "^2.5.5"
